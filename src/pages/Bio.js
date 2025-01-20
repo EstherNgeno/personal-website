@@ -10,7 +10,7 @@ const Bio = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        height: "90vh", // Use a slightly taller height for better spacing
+        height: "100vh", // Use a slightly taller height for better spacing
         textAlign: "center",
         padding: "20px", // Add padding to the section
         boxSizing: "border-box",
@@ -76,7 +76,7 @@ const Bio = () => {
           href="https://www.linkedin.com/in/esther-ngeno-7a8a1a145/"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "#0077b5", fontSize: "30px" }}
+          style={{ color: "rgba(191, 214, 196, 0.9)", fontSize: "50px" }}
         >
           <FaLinkedin />
         </a>
@@ -84,7 +84,7 @@ const Bio = () => {
           href="https://github.com/EstherNgeno"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "#333", fontSize: "30px" }}
+          style={{ color: "rgba(191, 214, 196, 0.9)", fontSize: "50px" }}
         >
           <FaGithub />
         </a>
@@ -92,7 +92,7 @@ const Bio = () => {
           href="https://www.youtube.com/@estherngeno2216"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "#FF0000", fontSize: "30px" }}
+          style={{ color: "rgba(191, 214, 196, 0.9)", fontSize: "50px" }}
         >
           <FaYoutube />
         </a>

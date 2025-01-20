@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: rgba(191, 214, 196, 0.9);
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  padding: 1rem calc((100vw - 1000px) / 2);
   z-index: 10;
 
   /* Third Nav */
@@ -18,7 +18,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   height: 100%;
   cursor: pointer;
   font-weight : 600;
